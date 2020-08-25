@@ -36,7 +36,7 @@ public class validateTitle extends Base
 		@AfterTest
 		public void shut()
 		{
-			driver.close();
+			driver.quit();
 		}
 }
 
